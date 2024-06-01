@@ -1,4 +1,4 @@
-import { Action, ActionType, AppState } from "./types";
+import { Action, ActionType, AppState } from "./store.types";
 
 type Listener = () => void;
 

@@ -1,10 +1,10 @@
 import {
-	Action,
-	AddItemPayload,
-	Item,
-	RemoveItemPayload,
-	UpdateItemPayload,
-} from "./types";
+  Action,
+  AddItemPayload,
+  Item,
+  RemoveItemPayload,
+  UpdateItemPayload,
+} from "./store.types";
 
 // Action creators
 export const addItem = (item: Item): Action<"ADD_ITEM", AddItemPayload> => ({
